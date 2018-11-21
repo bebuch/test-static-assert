@@ -83,7 +83,7 @@ auto foo(T){
 
 Now you can it use as you ever did in your normal program. The `static_assert` will print its message as before the change:
 
-```
+```cpp
 #include "foo.hpp"
 
 int main(){
@@ -95,7 +95,7 @@ int main(){
 In the unit test file you have to include the `enable_test_static_assert.hpp` header as first header file!
 
 
-```
+```cpp
 // Important: This has to be the first include!
 // Note: In your foo.hpp you included test_static_assert.hpp, here you include:
 #include <enable_test_static_assert.hpp>
