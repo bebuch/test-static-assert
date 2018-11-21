@@ -12,5 +12,5 @@ cmake ..
 make
 
 # Run the valid examples
-./valid_main
+./main_valid
 ./unit_test
