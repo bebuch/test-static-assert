@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.12.4)
 
 project(test)
-find_package(Boost REQUIRED)
 
 # Setup testing
 enable_testing()
