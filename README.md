@@ -35,7 +35,6 @@ int foo(T){
 
 
 #endif
-
 ```
 
 You have to rewrite it as follow to make the `static_assert` testable:
@@ -78,7 +77,6 @@ auto foo(T){
 
 
 #endif
-
 ```
 
 Now you can it use as you ever did in your normal program. The `static_assert` will print its message as before the change:
@@ -119,7 +117,6 @@ int main(){
     foo(4);
     foo("4");
 }
-
 ```
 
 ## License notice
